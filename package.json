@@ -1,0 +1,23 @@
+{
+  "name": "webscrape",
+  "version": "1.0.0",
+  "description": "scrapes the web :)",
+  "main": "webScrape.js",
+  "scripts": {
+    "test": "scrape"
+  },
+  "repository": {
+    "type": "git",
+    "url": "webScrape"
+  },
+  "keywords": [
+    "webScrape"
+  ],
+  "author": "Hans-Jeiger Gram",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
